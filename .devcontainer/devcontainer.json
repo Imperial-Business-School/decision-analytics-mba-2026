@@ -1,7 +1,6 @@
 {
   "name": "decision-analytics",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "remoteUser": "vscode",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {}
   },
@@ -19,6 +18,7 @@
           "notebook.cellEditorBackground": "#3b82f60f",
           "notebook.outputContainerBackgroundColor": "#80808018"
         },
+        "notebook.kernelPickerType": "mru",
         "python.defaultInterpreterPath": "/usr/local/bin/python3"
       }
     }
