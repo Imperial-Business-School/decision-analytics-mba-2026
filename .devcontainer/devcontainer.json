@@ -12,7 +12,8 @@
         "ms-toolsai.jupyter",
         "github.copilot",
         "github.copilot-chat",
-        "AdamRaichu.pdf-viewer"
+        "AdamRaichu.pdf-viewer",
+        "anthropic.claude-code"
       ],
       "settings": {
         "workbench.colorCustomizations": {

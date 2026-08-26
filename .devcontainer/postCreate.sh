@@ -19,6 +19,10 @@ pip install gurobipy ipykernel
 python3 -m ipykernel install --user --name decision-suite \
   --display-name "Python (decision-suite)"
 
+# Standalone CLI, for running `claude` in the integrated terminal. The
+# anthropic.claude-code VS Code extension (see devcontainer.json) bundles
+# its own separate copy of the CLI for its chat panel, so this is only
+# needed for terminal use, not a duplicate of what the extension provides.
 npm install -g @anthropic-ai/claude-code
 
 echo "Setup complete. Kernel 'Python (decision-suite)' is ready."
