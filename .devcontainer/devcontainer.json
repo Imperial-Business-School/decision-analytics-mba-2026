@@ -18,7 +18,8 @@
           "notebook.cellEditorBackground": "#3b82f60f",
           "notebook.outputContainerBackgroundColor": "#80808018"
         },
-        "notebook.kernelPickerType": "mru"
+        "notebook.kernelPickerType": "mru",
+        "python.defaultInterpreterPath": "/usr/local/bin/python3"
       }
     }
   }
