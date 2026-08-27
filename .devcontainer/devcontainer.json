@@ -21,7 +21,11 @@
           "notebook.outputContainerBackgroundColor": "#80808018"
         },
         "notebook.kernelPickerType": "mru",
-        "python.defaultInterpreterPath": "/usr/local/bin/python3"
+        "python.defaultInterpreterPath": "/usr/local/bin/python3",
+        "files.exclude": {
+          ".devcontainer": true,
+          ".gitignore": true
+        }
       }
     }
   }

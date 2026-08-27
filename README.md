@@ -3,24 +3,25 @@
 Welcome. This Codespace has everything you need for this module's Python
 notebooks already installed: no setup required on your end.
 
-## Start a brand new Codespace for every class
+## Launching a Codespace
 
-**Always launch a new Codespace for each class, never reuse one from a
-previous class.** This repo is a blank template, not somewhere your work
-accumulates: reusing an old Codespace means starting from a workspace
-that already has a previous class's files sitting in it, which can
-silently mix content between classes (an old `CLAUDE.md` or notebook
-left over from last time, sitting alongside this week's).
-
-To start a new one:
+This repo is a blank template, not somewhere your work accumulates.
+Launch a fresh Codespace for each class rather than reusing one, so you
+always start from a clean workspace, not one still holding a previous
+class's files.
 
 1. Go to this repo on GitHub.
 2. Click the green **Code** button, then the **Codespaces** tab.
 3. Click **Create codespace on main**.
 
-If you have an old Codespace from a previous class still listed there,
-you can delete it (from that same Codespaces tab) rather than leaving it
-around to accidentally reopen by mistake.
+You can have more than one Codespace at a time. From that same
+Codespaces tab you can delete ones you no longer need, click the **...**
+menu next to it and choose **Delete**. **This permanently deletes
+everything in it, so download anything you want to keep first** (in VS
+Code, select your files, right-click, **Compress to ZIP**, then
+right-click the zip and **Download**). Codespaces also get deleted
+automatically after a period of inactivity, so don't rely on one as your
+only copy of your work.
 
 ## Getting started
 
