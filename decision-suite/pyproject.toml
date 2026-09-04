@@ -7,6 +7,10 @@ name = "decision-suite"
 version = "0.1.0"
 description = "Combined decision-tree and simulation library for teaching decision analysis"
 requires-python = ">=3.9"
+license = { file = "LICENSE.md" }
+authors = [
+    { name = "Reza Skandari" },
+]
 dependencies = [
     "rich>=13.0",
     "numpy>=1.24",

@@ -68,7 +68,7 @@ class ValidationError(DsimError):
 # Empirical (below), added because a real case (Dynatron) states its
 # uncertainty as elicited quantile points, not a low/mode/high shape. No
 # Lognormal/Pert/Beta/etc: still no full scipy.stats catalogue, only shapes
-# an actual case has needed — see API_MANUAL.md's "design conversation, not
+# an actual case has needed — see SIM_API_MANUAL.md's "design conversation, not
 # a code change" note for why this list stays deliberately short.
 
 class Triangular:
@@ -658,7 +658,7 @@ class Model:
     `.simulate()` all live on one Model). Sensitivity sweeps, risk metrics,
     and charts are deliberately not methods here — compose them in the
     notebook against `.run()` and a result's raw data instead; see
-    `API_MANUAL.md`.
+    `SIM_API_MANUAL.md`.
 
     The function itself — the actual NPV/profit/cost formula — is always
     the student's own code. Model never sees or generates that logic; it
