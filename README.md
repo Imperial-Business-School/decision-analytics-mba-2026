@@ -18,7 +18,7 @@ You can have more than one Codespace at a time. From that same
 Codespaces tab you can delete ones you no longer need, click the **...**
 menu next to it and choose **Delete**. **This permanently deletes
 everything in it, so download anything you want to keep first** (in VS
-Code, select your files, right-click, **Compress to ZIP**, then
+Code, select your files, right-click, **Compress**, then
 right-click the zip and **Download**). Codespaces also get deleted
 automatically after a period of inactivity, so don't rely on one as your
 only copy of your work.
