@@ -44,7 +44,7 @@ before extending the package.
 
 ## Code style for composed cells
 
-Per `CLAUDE.md.student-template.md`: no list/dict comprehensions, even
+Per the shared `CLAUDE.md` rules: no list/dict comprehensions, even
 when shorter — use an explicit `for` loop with a named accumulator
 variable. Comprehensions read as "clever" to a non-programmer audience.
 
