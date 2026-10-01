@@ -19,9 +19,13 @@
       "settings": {
         "workbench.colorCustomizations": {
           "notebook.cellEditorBackground": "#3b82f60f",
-          "notebook.outputContainerBackgroundColor": "#80808018"
+          "notebook.outputContainerBackgroundColor": "#80808018",
+          "notebook.cellBorderColor": "#3b82f680"
         },
         "notebook.kernelPickerType": "mru",
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 120,
+        "notebook.output.wordWrap": true,
         "python.defaultInterpreterPath": "/usr/local/bin/python3",
         "explorer.autoOpenDroppedFile": false,
         "files.exclude": {
