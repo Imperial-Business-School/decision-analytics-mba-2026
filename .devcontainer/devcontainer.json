@@ -33,7 +33,8 @@
         "explorer.autoOpenDroppedFile": false,
         "files.exclude": {
           ".devcontainer": true,
-          ".gitignore": true
+          ".gitignore": true,
+          "decision-suite": true
         }
       }
     }
