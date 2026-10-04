@@ -29,7 +29,10 @@
         "python.defaultInterpreterPath": "/usr/local/bin/python3",
         "python-envs.defaultEnvManager": "ms-python.python:system",
         "python.analysis.typeCheckingMode": "off",
+        "python.analysis.extraPaths": ["./decision-suite"],
         "mypy.enabled": false,
+        "pylint.enabled": false,
+        "flake8.enabled": false,
         "explorer.autoOpenDroppedFile": false,
         "files.exclude": {
           ".devcontainer": true,
